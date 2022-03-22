@@ -11,14 +11,14 @@ const App = () => {
   return (
     <BrowserRouter>
       <NavBar
-        logo={"Monkey Miners"}
-        link1={"3090"}
-        link2={"3080"}
-        link3={"GPU"}
+        logo={"Tienda Geeks"}
+        link1={"home"}
+        link2={"quienes"}
+        link3={"contacto"}
       />
       <Switch>
         <Route exact path="/">
-          <ItemListContainer heading={"Rig para mineria Ethereum"} />
+          <ItemListContainer heading={"tienda geeks"} />
         </Route>
         <Route path="/category/:category">
           <ItemListContainer heading={"Rig para mineria Ethereum"} />
